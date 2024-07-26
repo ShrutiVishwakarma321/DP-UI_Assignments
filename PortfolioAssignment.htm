@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="utf-8">
+	<title>
+		Create a Portfolio as part of Assignment
+	</title>
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1">
+
+	<style>
+		/* wildcard styling */
+		* {
+			box-sizing: border-box;
+		}
+
+		/* padding for whole body */
+		body {
+			padding: 15px;
+		}
+
+		/* styling body */
+		.container {
+			max-width: 1200px;
+			margin: auto;
+		}
+
+		h1 {
+			color: rgb(128, 0, 122);
+		}
+
+		/* anchor tag decoration */
+		a {
+			text-decoration: none;
+			color: #5673C8;
+		}
+
+		a:hover {
+			color: lightblue;
+		}
+
+		/* paragraph tag decoration */
+		p {
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 4;
+			overflow: hidden;
+
+		}
+
+		/* row and column decoration */
+		.row {
+			margin: 0px -18px;
+			padding: 8px;
+		}
+
+		.row>.column {
+			padding: 6px;
+		}
+
+		.column {
+			float: left;
+			width: 25%;
+		}
+
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		/* content decoration */
+		.content {
+			background-color: white;
+			padding: 10px;
+			border: 1px solid gray;
+		}
+
+		/* window size 850 width set */
+		@media screen and (max-width: 850px) {
+			.column {
+				width: 200%;
+			}
+		}
+
+		/* window size 400 width set */
+		@media screen and (max-width: 400px) {
+			.column {
+				width: 200%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- title and tag -->
+	<div class="container">
+        <img src="https://wallpaperaccess.com/full/5651978.png" style="width:15%;" class=""><br><br>
+
+		<h1 text-align: centre>Hi , I am Shruti Vishwakarma</h1>
+		<h3>A software engineer , working as freelancer</h3>
+		<hr>
+
+		<!-- Content of the body-->
+		<h2>Here's my Projects </h2>
+		<div class="row">
+			<div class="column">
+				<div class="content">
+					<img src=
+"https://beatcolor.com/media/2020/09/screen-7.jpg"
+						alt="" style="width:100%">
+					<h3>
+						<a href="#">Real-Time Weather Forecasting App</a>
+					</h3>
+					<p>
+						The Real-Time Weather Forecasting app have a simple and user-friendly interface.
+                        Users can input a location in a search bar, and the app will show the current weather 
+                        conditions for that area. I used the OpenWeather API to retrieve weather information 
+                        based on the user’s location input. The app also offers extra information, including temperature, humidity, wind speed, a weather icon depicting the current conditions, and a background image of the searched location.
+					</p>
+				</div>
+			</div>
+
+			<div class="column">
+				<div class="content">
+					<img src=
+"https://wallpaperaccess.com/full/136939.jpg"
+						alt="" style="width:100%">
+					<h3>
+						<a href="#">Basic Hospital Management System</a>
+					</h3>
+					<p>
+						The hospital management system (HMS) is integrated software that handles different
+                         directions of clinic workflows. It manages the smooth healthcare performance along with administrative, 
+                         medical, legal and financial control.
+                         That is a cornerstone of the successful operation of the healthcare facility.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+    <h2>Contact with me</h2>
+    <p>Mobile No.: xxxxxxxxxx</p>
+    <p>Email: adc@gmail.com</p>
+</body>
+
+</html>
